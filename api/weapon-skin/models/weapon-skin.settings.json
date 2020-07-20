@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "weapon_skins",
+  "info": {
+    "name": "WeaponSkin"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "private": false,
+      "required": true
+    },
+    "weapon": {
+      "model": "weapon"
+    },
+    "price": {
+      "type": "integer",
+      "required": true
+    },
+    "unlockable": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

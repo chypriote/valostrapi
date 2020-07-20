@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skin_packs",
+  "info": {
+    "name": "SkinPack"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "private": false,
+      "required": true,
+      "type": "integer"
+    },
+    "weapon_skins": {
+      "collection": "weapon-skin"
+    }
+  }
+}

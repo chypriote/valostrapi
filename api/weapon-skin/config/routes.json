@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/weapon-skins",
+      "handler": "weapon-skin.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/weapon-skins/count",
+      "handler": "weapon-skin.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/weapon-skins/:id",
+      "handler": "weapon-skin.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/weapon-skins",
+      "handler": "weapon-skin.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/weapon-skins/:id",
+      "handler": "weapon-skin.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/weapon-skins/:id",
+      "handler": "weapon-skin.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
