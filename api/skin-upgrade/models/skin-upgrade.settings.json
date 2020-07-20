@@ -37,8 +37,8 @@
       "required": false
     },
     "weapon_skin": {
-      "model": "weapon-skin",
-      "via": "skin_upgrades"
+      "via": "skin_upgrades",
+      "model": "weapon-skin"
     },
     "level": {
       "type": "integer",

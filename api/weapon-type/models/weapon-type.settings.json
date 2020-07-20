@@ -15,6 +15,10 @@
     },
     "weapons": {
       "collection": "weapon"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
     }
   }
 }

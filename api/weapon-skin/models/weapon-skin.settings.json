@@ -51,12 +51,20 @@
       "via": "weapon_skins"
     },
     "skin_bundles": {
-      "via": "weapon_skins",
-      "collection": "skin-bundle"
+      "collection": "skin-bundle",
+      "via": "weapon_skins"
     },
     "skin_upgrades": {
-      "via": "weapon_skin",
-      "collection": "skin-upgrade"
+      "collection": "skin-upgrade",
+      "via": "weapon_skin"
+    },
+    "available": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }

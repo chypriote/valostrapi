@@ -20,6 +20,10 @@
     "weapon_skins": {
       "via": "skin_collection",
       "collection": "weapon-skin"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
     }
   }
 }
