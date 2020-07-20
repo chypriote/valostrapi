@@ -54,9 +54,9 @@
       "model": "skin-collection",
       "via": "weapon_skins"
     },
-    "bundled_skins": {
-      "collection": "bundled-skin",
-      "via": "weapon_skin"
+    "skin_bundles": {
+      "via": "weapon_skins",
+      "collection": "skin-bundle"
     }
   }
 }

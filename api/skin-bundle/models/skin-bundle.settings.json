@@ -19,9 +19,10 @@
       "unique": false,
       "required": true
     },
-    "bundled_skins": {
-      "via": "skin_bundle",
-      "collection": "bundled-skin"
+    "weapon_skins": {
+      "collection": "weapon-skin",
+      "via": "skin_bundles",
+      "dominant": true
     }
   }
 }
