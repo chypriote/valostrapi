@@ -41,11 +41,12 @@
     "rarity": {
       "type": "enumeration",
       "enum": [
-        "Select",
-        "Deluxe",
-        "Premium",
-        "Ultra",
-        "Exclusive"
+        "standard",
+        "select",
+        "deluxe",
+        "premium",
+        "ultra",
+        "exclusive"
       ],
       "required": true
     },
