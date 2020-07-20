@@ -32,6 +32,10 @@
     "slug": {
       "type": "uid",
       "targetField": "name"
+    },
+    "weapon_skins": {
+      "via": "weapon",
+      "collection": "weapon-skin"
     }
   }
 }

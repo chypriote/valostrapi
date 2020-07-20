@@ -15,7 +15,8 @@
       "required": true
     },
     "weapon": {
-      "model": "weapon"
+      "model": "weapon",
+      "via": "weapon_skins"
     },
     "price": {
       "type": "integer",
@@ -47,8 +48,8 @@
       "required": true
     },
     "skin_collection": {
-      "via": "weapon_skins",
-      "model": "skin-collection"
+      "model": "skin-collection",
+      "via": "weapon_skins"
     },
     "skin_bundles": {
       "collection": "skin-bundle",

@@ -18,8 +18,8 @@
       "required": true
     },
     "weapon_skins": {
-      "collection": "weapon-skin",
-      "via": "skin_collection"
+      "via": "skin_collection",
+      "collection": "weapon-skin"
     },
     "slug": {
       "type": "uid",
