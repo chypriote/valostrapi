@@ -47,8 +47,8 @@
       "required": true
     },
     "skin_collection": {
-      "model": "skin-collection",
-      "via": "weapon_skins"
+      "via": "weapon_skins",
+      "model": "skin-collection"
     },
     "skin_bundles": {
       "collection": "skin-bundle",

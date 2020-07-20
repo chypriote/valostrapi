@@ -19,6 +19,15 @@
     "slug": {
       "type": "uid",
       "targetField": "name"
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

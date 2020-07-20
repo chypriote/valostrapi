@@ -18,12 +18,21 @@
       "required": true
     },
     "weapon_skins": {
-      "via": "skin_collection",
-      "collection": "weapon-skin"
+      "collection": "weapon-skin",
+      "via": "skin_collection"
     },
     "slug": {
       "type": "uid",
       "targetField": "name"
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
