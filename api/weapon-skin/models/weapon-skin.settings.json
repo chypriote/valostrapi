@@ -34,10 +34,6 @@
       "plugin": "upload",
       "required": true
     },
-    "skin_chromas": {
-      "collection": "skin-chroma",
-      "via": "weapon_skin"
-    },
     "rarity": {
       "type": "enumeration",
       "enum": [
@@ -57,6 +53,10 @@
     "skin_bundles": {
       "via": "weapon_skins",
       "collection": "skin-bundle"
+    },
+    "skin_upgrades": {
+      "via": "weapon_skin",
+      "collection": "skin-upgrade"
     }
   }
 }

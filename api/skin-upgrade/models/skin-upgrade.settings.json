@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skin_upgrades",
+  "info": {
+    "name": "SkinUpgrade"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "cost": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "visuals",
+        "animation",
+        "finition",
+        "chroma"
+      ],
+      "required": true
+    },
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "weapon_skin": {
+      "model": "weapon-skin",
+      "via": "skin_upgrades"
+    },
+    "level": {
+      "type": "integer",
+      "required": true
+    },
+    "displayText": {
+      "type": "string"
+    }
+  }
+}

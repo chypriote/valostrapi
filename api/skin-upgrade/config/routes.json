@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/skin-chromas",
-      "handler": "skin-chroma.find",
+      "path": "/skin-upgrades",
+      "handler": "skin-upgrade.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/skin-chromas/count",
-      "handler": "skin-chroma.count",
+      "path": "/skin-upgrades/count",
+      "handler": "skin-upgrade.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/skin-chromas/:id",
-      "handler": "skin-chroma.findOne",
+      "path": "/skin-upgrades/:id",
+      "handler": "skin-upgrade.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/skin-chromas",
-      "handler": "skin-chroma.create",
+      "path": "/skin-upgrades",
+      "handler": "skin-upgrade.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/skin-chromas/:id",
-      "handler": "skin-chroma.update",
+      "path": "/skin-upgrades/:id",
+      "handler": "skin-upgrade.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/skin-chromas/:id",
-      "handler": "skin-chroma.delete",
+      "path": "/skin-upgrades/:id",
+      "handler": "skin-upgrade.delete",
       "config": {
         "policies": []
       }
