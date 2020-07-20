@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/skin-chromas",
+      "handler": "skin-chroma.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/skin-chromas/count",
+      "handler": "skin-chroma.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/skin-chromas/:id",
+      "handler": "skin-chroma.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/skin-chromas",
+      "handler": "skin-chroma.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/skin-chromas/:id",
+      "handler": "skin-chroma.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/skin-chromas/:id",
+      "handler": "skin-chroma.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

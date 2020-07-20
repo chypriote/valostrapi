@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "skin_packs",
+  "collectionName": "skin_bundles",
   "info": {
-    "name": "SkinPack"
+    "name": "SkinBundle"
   },
   "options": {
     "increments": true,
@@ -14,12 +14,14 @@
       "required": true
     },
     "price": {
+      "type": "integer",
       "private": false,
-      "required": true,
-      "type": "integer"
+      "unique": false,
+      "required": true
     },
-    "weapon_skins": {
-      "collection": "weapon-skin"
+    "bundled_skins": {
+      "via": "skin_bundle",
+      "collection": "bundled-skin"
     }
   }
 }

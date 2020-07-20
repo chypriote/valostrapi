@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/skin-bundles",
+      "handler": "skin-bundle.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/skin-bundles/count",
+      "handler": "skin-bundle.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/skin-bundles/:id",
+      "handler": "skin-bundle.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/skin-bundles",
+      "handler": "skin-bundle.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/skin-bundles/:id",
+      "handler": "skin-bundle.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/skin-bundles/:id",
+      "handler": "skin-bundle.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

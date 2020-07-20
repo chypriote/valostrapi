@@ -24,6 +24,38 @@
     "unlockable": {
       "type": "boolean",
       "default": false
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "skin_chromas": {
+      "collection": "skin-chroma",
+      "via": "weapon_skin"
+    },
+    "rarity": {
+      "type": "enumeration",
+      "enum": [
+        "Select",
+        "Deluxe",
+        "Premium",
+        "Ultra",
+        "Exclusive"
+      ],
+      "required": true
+    },
+    "skin_collection": {
+      "model": "skin-collection",
+      "via": "weapon_skins"
+    },
+    "bundled_skins": {
+      "collection": "bundled-skin",
+      "via": "weapon_skin"
     }
   }
 }

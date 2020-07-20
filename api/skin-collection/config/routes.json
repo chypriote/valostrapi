@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/skin-packs",
-      "handler": "skin-pack.find",
+      "path": "/skin-collections",
+      "handler": "skin-collection.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/skin-packs/count",
-      "handler": "skin-pack.count",
+      "path": "/skin-collections/count",
+      "handler": "skin-collection.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/skin-packs/:id",
-      "handler": "skin-pack.findOne",
+      "path": "/skin-collections/:id",
+      "handler": "skin-collection.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/skin-packs",
-      "handler": "skin-pack.create",
+      "path": "/skin-collections",
+      "handler": "skin-collection.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/skin-packs/:id",
-      "handler": "skin-pack.update",
+      "path": "/skin-collections/:id",
+      "handler": "skin-collection.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/skin-packs/:id",
-      "handler": "skin-pack.delete",
+      "path": "/skin-collections/:id",
+      "handler": "skin-collection.delete",
       "config": {
         "policies": []
       }

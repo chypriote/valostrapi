@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "weapons",
+  "collectionName": "skin_chromas",
   "info": {
-    "name": "Weapon"
+    "name": "SkinChroma"
   },
   "options": {
     "increments": true,
@@ -13,20 +13,17 @@
       "type": "string",
       "required": true
     },
+    "weapon_skin": {
+      "via": "skin_chromas",
+      "model": "weapon-skin"
+    },
     "price": {
       "type": "integer",
       "required": true
     },
-    "type": {
-      "model": "weapon-type"
-    },
-    "picture": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
+    "unlockable": {
+      "type": "boolean",
+      "default": false,
       "required": true
     }
   }
